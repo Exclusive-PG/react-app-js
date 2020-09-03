@@ -1,0 +1,14 @@
+.notification{
+    background-color: #fff;
+    color: #f13c6e;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin: 3px;
+    padding: 0 15px;
+    border-radius: 30px;
+}
+.done{
+    display: none;
+}

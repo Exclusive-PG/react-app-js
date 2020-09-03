@@ -1,0 +1,34 @@
+.modal-content{
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.modal-footer{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    background-color: #3F51B5;
+}
+
+
+.modal-footer:hover{
+cursor: pointer;
+}
+.icon{
+    transition: .2s all;
+}
+.modal-footer:hover .icon{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.wrapper_title_head_modal{
+    display: flex;
+    justify-content: center;
+}
+.wrapper_title_head_modal span{
+    letter-spacing: .5px;
+}
+.title_head_icon_wrapper{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

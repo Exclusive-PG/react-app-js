@@ -1,0 +1,96 @@
+.item {
+  background-color: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.item img {
+  padding-top: 25px;
+}
+.price {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+}
+.name {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  z-index: 2;
+}
+.name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn {
+  padding-top: 29px;
+  padding-bottom: 25px;
+}
+.txt_btn {
+  padding: 9px 40px;
+  border: 1px solid #f13c6e;
+  background: #f13c6e;
+  border-radius: 40px;
+  color: #fff;
+  transition: 0.2s all;
+}
+.txt_btn:hover {
+  background-color: #fff;
+  color: #f13c6e;
+  cursor: pointer;
+  user-select: none;
+}
+
+.txt_btn__buyed {
+  padding: 9px 40px;
+  border: 1px solid #f13c6e;
+  background: #fff;
+  border-radius: 40px;
+  color: #f13c6e;
+  transition: 0.3s all;
+  z-index: 1;
+}
+.txt_btn__buyed:hover {
+  user-select: none;
+  cursor: pointer;
+}
+.item:hover::before {
+  width: 100%;
+}
+.item:hover::after {
+  width: 100%;
+}
+.item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 4px;
+  transition: 0.7s all;
+  background-color: rgba(241, 60, 110, 0.7);
+  z-index: 2;
+}
+.item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 4px;
+  transition: 0.7s all;
+  background-color: rgba(241, 60, 110, 0.7);
+  z-index: 2;
+}
+
+.hoverTranslateY {
+  transition: 0.3s all;
+}
+.hoverTranslateY:hover {
+  transform: translateY(-15px);
+}

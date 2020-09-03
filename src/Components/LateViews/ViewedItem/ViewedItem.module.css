@@ -1,0 +1,32 @@
+
+.item {
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .item img{
+      padding-top: 25px;
+  }
+  .price {
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .name {
+      margin: 20px 30px 0;
+  }
+  .name:hover{
+      cursor: pointer;
+      text-decoration: underline;
+  }
+.plate{
+    margin: 20px 0;
+    background-color: #f5940c;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 40px;
+}

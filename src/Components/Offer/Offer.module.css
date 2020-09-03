@@ -1,0 +1,60 @@
+.section{
+    background-image: url(../../images/fone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    /* position: absolute; */
+    /* min-height: 680px;
+    min-width: 320px;
+     */
+     max-width:100%; 
+     height:auto;
+    color: #fff;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 192px 15px;
+}
+.mainTxt{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+.block{
+    max-width: 308px;
+
+}
+.subTitle{
+    margin-top: 50px;
+    font-size: 14px;
+    
+}
+.btn_detail{
+    margin-top: 50px;
+}
+.txt__btn{
+    padding: 12px 35px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+}
+.txt__btn:hover{
+    color: #f13c6e;
+    background-color: #fff;
+    cursor: pointer;
+}
+@media(max-width:700px){
+    .section{
+        background-image: none;
+        background-color: rgba(241, 60, 111, .8)
+    }
+    .block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: none;
+    }
+}

@@ -1,0 +1,140 @@
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.gridSet {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 165px;
+    grid-row-gap: 100px;
+    padding: 60px 0;
+}
+.listItem > li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+.listItem li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.listItem {
+    margin-top: 55px;
+}
+.main {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140.62%;
+    position: relative;
+    max-width: 99px;
+}
+.block {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.main::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    max-width: 240px;
+    height: 2px;
+    background-color: #efefef;
+    left: 0;
+    top: 75px;
+}
+
+.data {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    padding: 40px 0;
+    grid-row-gap: 20px;
+}
+.data > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    border-radius: 50%;
+    padding: 10px;
+    border-color: #f13c6e;
+}
+.icon:hover {
+    background: #f13c6e;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.social__web {
+   
+}
+.adress {
+    white-space: nowrap;
+}
+.number {
+    white-space: nowrap;
+}
+.call__back {
+    white-space: nowrap;
+}
+.txt_btn {
+    border: 1px solid #f13c6e;
+    border-radius: 40px;
+    padding: 12px 25px;
+}
+.txt_btn:hover {
+    background: #f13c6e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section {
+    border-top: 1px solid #efefef;
+}
+.wrapper___inner,
+.right_wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.right_block {
+    background: #efefef;
+}
+.right_wrapper {
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.right_wrapper > div {
+    font-size: 12px;
+    color: #828282; 
+}
+.right_wrapper > div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (max-width: 1350px) {
+    .main::before {
+        width: 50px;
+    }
+}
+@media (max-width: 730px){
+    .right_wrapper {
+        line-height: 14px;
+        justify-content: center;
+    }
+    .politics {
+        margin-top: 20px;
+      
+    }
+}

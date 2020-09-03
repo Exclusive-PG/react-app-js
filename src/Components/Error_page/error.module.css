@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:300px 500px;
+    grid-template-columns: minmax(300px,500px);
+    align-items: center;
+    justify-content: center;
+}
+.wrapper > form {
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    
+}
+.navbar_error{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputField{
+    width: 500;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.errorTxt{
+    color:#ff0000;
+  
+    animation: fade .1s  ease-in-out forwards;
+}
+@keyframes fade{
+    0%{
+        padding: 0;
+    }
+    100%{
+        padding: 10px 0;
+    }
+}
