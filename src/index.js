@@ -6,15 +6,15 @@ import * as serviceWorker from "./serviceWorker";
 import { Provider } from "react-redux";
 import store from './Redux/redux-store';
 import "bootstrap/dist/css/bootstrap.min.css"
-import { BrowserRouter as Router} from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-<Router>
+<HashRouter basename = {process.env.PUBLIC_URL}>
     <Provider store = {store} >
       <App />
     </Provider>
-    </Router>
+    </HashRouter>
   </React.StrictMode>
  ,
   document.getElementById("root")
