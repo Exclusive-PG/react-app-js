@@ -1,4 +1,4 @@
-## `Market Chair (React + Redux)`
+## `Chair store (React + Redux)`
 
 
 `You can download the project or` [check online version](https://exclusive-pg.github.io/react-deploy/#/react-deploy/home)
